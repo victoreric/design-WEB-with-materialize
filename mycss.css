@@ -1,0 +1,161 @@
+@media screen and (max-width: 1200px) {
+    .caption h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .caption h3 {
+        font-size: 40px;
+    }
+    #katamereka h5 {
+        font-size: 14px;
+    }
+    .nama p {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .caption h1 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .caption h3 {
+        font-size: 28px;
+    }
+    #katamereka h5 {
+        font-size: 14px;
+    }
+    .nama p {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .caption h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .caption h3 {
+        font-size: 24px;
+        background-color: green !important;
+    }
+    #katamereka h5 {
+        font-size: 12px;
+    }
+    .nama p {
+        font-size: 12px !important;
+    }
+}
+
+.caption h1 {
+    color: yellow;
+    text-shadow: 1px 2px black;
+}
+
+.caption h3 {
+    background-color: orangered;
+}
+
+.caption h4 {
+    text-shadow: 1px 2px black;
+}
+
+.caption h6 {
+    text-shadow: 1px 2px black;
+}
+
+.slider button {
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.slider button:hover {
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    background-color: orangered !important;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.kesalahan h3,
+.kesalahan h5,
+.kesalahan h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+.slider {
+    padding-bottom: 50px;
+}
+
+#katamereka h5 {
+    font-weight: bold;
+}
+
+#katamereka img {
+    width: 60px;
+    border-radius: 60%;
+    border: 1px solid white;
+    float: left;
+    margin-right: 20px;
+}
+
+#katamereka p {
+    color: rgba(38, 34, 34, 0.8);
+    text-align: justify;
+    font-size: 20px;
+}
+
+.nama p {
+    color: orangered !important;
+    margin: 10px !important;
+}
+
+.card-title {
+    font-size: 16px !important;
+}
+
+.card {
+    border-radius: 40px;
+}
+
+.Disclaimer {
+    font-size: 10px;
+    color: red;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.col.m6.light {
+    text-transform: uppercase;
+}
+
+.parallax-container {
+    height: 100%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.kesalahan img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0, 0.8))
+}
+
+section,
+footer {
+    padding: 20px 0;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.navbar-fixed img {
+    width: 50px;
+    vertical-align: middle;
+}
